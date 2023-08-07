@@ -1,0 +1,29 @@
+schema {
+    query: Query
+    mutation: Mutation
+}
+
+# scalar Date
+
+type Post {
+    id: ID
+    name: String
+    content: String
+    regDate: String
+}
+
+type Query {
+    getPostById(id: ID!): Post
+    getAllPosts: [Post!]
+}
+
+input PostInput {
+    name: String
+    content: String
+}
+
+type Mutation {
+ 	createPost (post: PostInput!): Post
+    updatePost (id: ID!, post: PostInput!): Post
+    deletePost (id: ID!): Boolean
+}

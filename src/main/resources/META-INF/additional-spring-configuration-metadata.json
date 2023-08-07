@@ -1,0 +1,27 @@
+{"properties": [
+  {
+    "name": "graphql.servlet.mapping",
+    "type": "java.lang.String",
+    "description": "A description for 'graphql.servlet.mapping'"
+  },
+  {
+    "name": "graphql.tools.schema-location-pattern",
+    "type": "java.lang.String",
+    "description": "A description for 'graphql.tools.schema-location-pattern'"
+  },
+  {
+    "name": "graphql.servlet.max-query-depth",
+    "type": "java.lang.String",
+    "description": "A description for 'graphql.servlet.max-query-depth'"
+  },
+  {
+    "name": "graphql.servlet.cors-enabled",
+    "type": "java.lang.String",
+    "description": "A description for 'graphql.servlet.cors-enabled'"
+  },
+  {
+    "name": "graphql.servlet.exception-handlers-enabled",
+    "type": "java.lang.String",
+    "description": "A description for 'graphql.servlet.exception-handlers-enabled'"
+  }
+]}
